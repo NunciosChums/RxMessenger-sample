@@ -78,7 +78,7 @@ public class MyService extends AbstractMessengerService {
     ArrayList<String> response = new ArrayList<>();
     response.add("received: " + DateFormatter.format(System.currentTimeMillis()));
 
-    delayDisposable = Completable.timer(30, TimeUnit.MINUTES)
+    delayDisposable = Completable.timer(30, TimeUnit.SECONDS)
       .subscribeOn(Schedulers.computation())
       .subscribe(() -> {
         response.add("response: " + DateFormatter.format(System.currentTimeMillis()));
