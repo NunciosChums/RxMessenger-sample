@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+
+  <Button
+    android:id="@+id/immediateButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="immediate"/>
+
+  <TextView
+    android:id="@+id/immediateResponse"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="immediate result"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ccc"/>
+
+  <Button
+    android:id="@+id/delayButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="delay"/>
+
+  <TextView
+    android:id="@+id/delayResponse"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="delay result"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ccc"/>
+
+  <Button
+    android:id="@+id/continuousButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="continuous"/>
+
+  <TextView
+    android:id="@+id/continuousResponse"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="continuous result"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ccc"/>
+
+  <Button
+    android:id="@+id/interruptButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="interrupt"/>
+
+</LinearLayout>
